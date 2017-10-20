@@ -2,7 +2,7 @@ def scriptDir = getClass().protectionDomain.codeSource.location.path
 
 //Create the properties object, and load it from the file system:
 Properties props = new Properties()
-File propsFile = new File(scriptDir, './../test.properties')
+File propsFile = new File(scriptDir, './../app.properties')
 props.load(propsFile.newDataInputStream())
 
 //Take a peek:
